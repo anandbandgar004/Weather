@@ -1,0 +1,17 @@
+.main
+{
+
+    background-color: aquamarine;
+    height: 400px;
+    width: 300px;
+    border: 10px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+
+}
+#search
+{
+    border-radius: 15px;
+    padding: 3px;
+}
