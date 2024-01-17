@@ -16,6 +16,16 @@
     margin-left: 30px;
     margin-top: 25px;
 }
-.srch{
-    display: inline;
+.srch
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.srchbutton
+{
+    height: 30px;
+    width: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
 }
