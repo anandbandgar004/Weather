@@ -9,7 +9,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    margin: 100px 300px 300px 300px;
+    margin: 75px 300px 75px 300px;
     background-image: linear-gradient(to bottom right,#11AA95,#106497);
 
     height: 550px;
@@ -19,13 +19,13 @@ body
 }
 #search
 {
-    border-radius: 20px;
+    border-radius: 30px;
     border-style:hidden;
     border-color: #ffffff;
-    padding: 8px;
+    padding: 15px;
     margin-left: 60px;
     margin-top: 23px;
-    
+    width: 200px;
 }
 .srch
 {
@@ -41,8 +41,76 @@ body
     background-color: #ffffff;
     display: flex;
     size-adjust: 3px;
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 25px;
+    padding: 10px;
     margin-left: 30px;
     margin-bottom: 1px;
+}
+.weatherimg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.sun
+{
+    height: 175px;
+}
+.degree
+{
+    color:#ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding: 0px;
+}
+.temp
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.state
+{
+    color: #ffffff;
+    font-size: 40px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.condition
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.humid
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.wind
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.humidimg
+{
+    height: 40px;
+}
+.humidtxt
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 15px;
 }
