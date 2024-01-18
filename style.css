@@ -8,36 +8,40 @@ body
 {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom right,#10a398,#107297);
-    height: 400px;
-    width: 300px;
+    margin: 100px 300px 300px 300px;
+    background-image: linear-gradient(to bottom right,#11AA95,#106497);
+
+    height: 500px;
+    width: 350px;
     border: 2px;
-    border-style: solid;
-    border-color: #000000;
     border-radius: 10px;
 }
 #search
 {
     border-radius: 20px;
-    padding: 10px;
-    margin-left: 30px;
-    margin-top: 25px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 8px;
+    margin-left: 50px;
+    margin-top: 23px;
+    
 }
 .srch
 {
     display:flex;
-    align-items: flex-end;
-    
+    flex-direction: row;
+    align-items: end;
+    margin-top: 5px;
 }
 .srchbutton
 {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background-color: #ffffff;
     display: flex;
-    flex-shrink:var(2px);
+    size-adjust: 3px;
     border-radius: 20px;
-    padding: 3px;
-    margin-left: 20px;
-    margin-bottom: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: 1px;
 }
