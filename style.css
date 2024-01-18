@@ -121,3 +121,117 @@ body
     color: #ffffff;
     font-size: 15px;
 }
+@media screen and (min-width:500px)
+{
+.main
+{
+    display: flex;
+    flex-direction: column;
+    margin:300px;
+    background-image: linear-gradient(to bottom right,#11AA95,#106497);
+    height: 950px;
+    width: 675px;
+    border: 2px;
+    border-radius: 30px;
+}
+#search
+{
+    border-radius: 30px;
+    border-style:hidden;
+    border-color: #ffffff;
+    padding: 15px;
+    margin-left: 150px;
+    margin-top: 53px;
+    width: 300px;
+}
+.srch
+{
+    display:flex;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 45px;
+}
+.srchbutton
+{
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    display: flex;
+    size-adjust: 3px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 60px;
+    margin-bottom: 1px;
+}
+.srchbutton:hover
+{
+    transform: rotate(90deg);
+}
+.weatherimg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.sun
+{
+    height: 300px;
+}
+.degree
+{
+    color:#ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.temp
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.state
+{
+    color: #ffffff;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.condition
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.humid
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.wind
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.humidimg
+{
+    height: 40px;
+}
+.humidtxt
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+}
